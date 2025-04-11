@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harvest Hub - Home</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="Harvest_hub.png" alt="Harvest Hub Logo" class="logo" />
+      <span class="title">Harvest Hub</span>
+      <div class="search-box">
+        <button class="menu-btn">☰</button>
+        <input type="text" placeholder="Search for Seller" />
+        <button class="search-btn">🔍</button>
+      </div>
+      <!-- <img src="RosahnPP.png" alt="Profile" class="profile-pic" /> -->
+    </header>
+
+    <main>
+      <h1>Harvest Hub - <span>Empowering Farmers</span></h1>
+      <h3>Real time market Intelligence for Farmers</h3>
+      <p>Check live prices, sell crops, and connect directly with buyers</p>
+      <div class="action-buttons">
+        <button class="buy">Buy</button>
+        <button class="sell">Sell</button>
+      </div>
+    </main>
+
+
+    <section class="slider-section">
+      <div class="slider">
+        <button class="slide-btn" onclick="selectCrop('Wheat')">
+          <img src="wheate.jpg" alt="Wheat">
+          <span>Wheat</span>
+        </button>
+        <button class="slide-btn" onclick="selectCrop('Paddy')">
+          <img src="paddy.jpg" alt="Paddy">
+          <span>Paddy</span>
+        </button>
+        <button class="slide-btn" onclick="selectCrop('Maize')">
+          <img src="maize.jpg" alt="Maize">
+          <span>Maize</span>
+        </button>
+        <button class="slide-btn" onclick="selectCrop('Barley')">
+          <img src="cotton.jpg" alt="Barley">
+          <span>Cotton</span>
+        </button>
+        <button class="slide-btn" onclick="selectCrop('Millet')">
+          <img src="mustard.jpg" alt="Millet">
+          <span>Mustard</span>
+        </button>
+      </div>
+    </section>
+    
+  </div>
+  <span></span>
+ 
+
+
+   <!-- Quantity Input and Place Order Section -->
+<section class="order-section">
+  <button class="select-quantity-btn">Select Quantity</button>
+
+  <div class="quantity-options">
+    <button class="quantity-btn">Kilograms</button>
+    <button class="quantity-btn">Quintals</button>
+    <button class="quantity-btn">Custom</button>
+  </div>
+
+  <button class="place-order-btn" id="PO">Place Order</button>
+</section>
+
+<section class="about-section">
+  <h2>About Harvest Hub</h2>
+  <p>
+    Welcome to Harvest Hub, your trusted platform for buying and selling crops directly. We empower farmers by providing real-time market intelligence, direct access to buyers, and fair pricing—all without middlemen.
+  </p>
+  <p>
+    For Farmers – Sell your produce with ease, check live market prices, and connect with verified buyers.
+  </p>
+  <p>
+    For Buyers – Discover fresh, high-quality crops from trusted farmers, compare prices, and negotiate directly.
+  </p>
+  <p>
+    With secure payments, transparent pricing, and hassle-free logistics, Harvest Hub ensures a smooth and profitable trading experience for all.
+  </p>
+  <p>
+    Join us today and be part of the future of agriculture!
+  </p>
+</section>
+
+
+
+<script src="main.js"></script>
+
+</body>
+</html>

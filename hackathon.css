@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background-image: url("../hackathon25/images1/Background_image.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+.main_div{
+    width: auto;
+    height: 729px;
+    /* border: 1px solid red;
+    */
+    overflow: hidden;
+   
+}
+.main_inner{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    opacity: 0.3;
+}
+.harvest_hub{
+    height: 500px;
+    width: 100%;
+    /* border: 3px solid red; */
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 100px;
+    z-index: 2;
+}
+.harvest{
+    height: 200px;
+    width: 200px;
+    background-image: url("../hackathon25/images1/Harvest_hub.png");
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    transition: top 0.8s ease,opacity 0.8s ease;
+  top: 0;
+  opacity: 1;
+}
+.hub{
+    height: 100px;
+    width:800px;
+    /* border: 2px solid black; */
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 50px;
+}
+.hub h1{
+    color: rgb(21, 218, 21);
+    font-weight: 900;
+    font-size: 40px;
+   
+}
+.hub p{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    top: 50px;
+    font-weight: 700;
+}
+.sign_up{
+    height: 100px;
+    width: 500px;
+    /* border: 3px solid blue; */
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.sign_up button{
+    height: 35px;
+    width: 100px;
+    border-radius: 15px;
+    border: transparent;
+    background-color: transparent;
+    align-self: center;  
+    font-weight: 600;
+    font-size: 16px;
+}
+.sign_up #but1{
+    background-color: green;
+    color: white;
+}
+.sign_up #but2{
+   border: 3px solid white;
+   color: green;
+}
